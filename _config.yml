@@ -10,9 +10,9 @@ baseurl: "/"
 markdown: kramdown
 source: .
 destination: ./_site
-permalink: /blog/:title
+permalink: /updates/:title
 paginate: 5
-paginate_path: "/blog/page:num"
+paginate_path: "/updates/page:num"
 
 # Default values
 defaults:

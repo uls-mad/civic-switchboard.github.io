@@ -1,6 +1,6 @@
 # Site settings
 title: ULS Metadata and Discovery Unit
-description: The Metadata and Discovery Unit provides metadata consultation, development, and production support for students, faculty, and staff at the University of Pittsburgh.
+description: Metadata documentation and project reports by the ULS Metadata and Discovery Unit.
 url: ""
 
 baseurl: "/"
@@ -10,9 +10,9 @@ baseurl: "/"
 markdown: kramdown
 source: .
 destination: ./_site
-permalink: /updates/:title
+permalink: /blog/:title
 paginate: 5
-paginate_path: "/updates/page:num"
+paginate_path: "/blog/page:num"
 
 # Default values
 defaults:
